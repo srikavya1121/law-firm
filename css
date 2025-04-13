@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+}
+
+header .logo h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cta-btn {
+    background-color: #FF9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #e67e22;
+}
+
+.hero {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h2 {
+    font-size: 3em;
+}
+
+#features {
+    padding: 50px;
+    background-color: #fff;
+}
+
+#features .feature {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+#target-audience {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+#learn {
+    background-color: #003366;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+#stats, #partners {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
